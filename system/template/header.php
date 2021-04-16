@@ -15,15 +15,14 @@
     -->
     <link href="<?php $this->getSiteUrl(); ?>/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-	  <link rel="stylesheet" href="<?php $this->getSiteUrl(); ?>/css/new-styler.css" />
-	  <link rel="stylesheet" href="<?php $this->getSiteUrl(); ?>/css/calendar.css" />
+	  <link rel="stylesheet" href="<?php $this->getSiteUrl(); ?>css/new-styler.css" />
+	  <link rel="stylesheet" href="<?php $this->getSiteUrl(); ?>css/calendar.css" />
     <link rel="stylesheet" href="//code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css">
-    <link href="<?php $this->getSiteUrl(); ?>/src/jquery.contextMenu.css" rel="stylesheet" type="text/css" />
     <link rel="icon" type="image/png" href="<?php $this->getSiteUrl(); ?>/ajax/get_image.php?i=cs&e=jpg">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="<?php $this->getSiteUrl(); ?>/css/datatables.min.css"/>
-	<link href="<?php $this->getSiteUrl(); ?>/css/sb-admin-2.min.css" rel="stylesheet">
-	<link href="<?php $this->getSiteUrl(); ?>/css/jquery.timepicker.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="<?php $this->getSiteUrl(); ?>css/datatables.min.css"/>
+	<link href="<?php $this->getSiteUrl(); ?>css/sb-admin-2.min.css" rel="stylesheet">
+	<link href="<?php $this->getSiteUrl(); ?>css/jquery.timepicker.css" rel="stylesheet">
 
      <!-- 
       ** javascript/scripts plugins 
@@ -259,9 +258,6 @@
     <script src="<?php $this->getSiteUrl(); ?>/js/jquery-1.11.2.min.js"></script>
     <script src="<?php $this->getSiteUrl(); ?>/js/jquery-ui.js"></script>
     <script src="<?php $this->getSiteUrl(); ?>/js/animate.js"></script>
-    <script type="text/javascript" src="<?php $this->getSiteUrl(); ?>/src/jquery.ui.position.js"></script>
-    <script type="text/javascript" src="<?php $this->getSiteUrl(); ?>/src/jquery.contextMenu.js"></script>
-    <script type="text/javascript" src="<?php $this->getSiteUrl(); ?>/js/jquery.dataTables.min.js"></script>
   </head>
 <body id="page-top" pid="<?php $this->getActivePage(); ?>">
 	<!-- Page Wrapper -->
