@@ -370,7 +370,7 @@ class TalentAcquisitionModel {
             'min'=>10, 
             'max'=>10
         ),
-        'job_offer' => array(
+        'job_offer_conducted_by' => array(
             'field'=>'require', 
             'validate'=>'text', 
             'min'=>0, 

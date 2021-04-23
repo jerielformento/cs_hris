@@ -52,7 +52,6 @@ class REJController {
 		$this->maintenance_path = $app['files_path']['maintenance'];
 		$this->site_url = $app['site']['url'];
 		$this->site_id = $app['site']['id'];
-		$this->site_desc = $app['site']['desc'];
 		$this->site_title = $app['site']['title'];
 		$this->site_page = $app['site']['page'];
 	} 

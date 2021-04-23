@@ -26,7 +26,7 @@ class Form {
                 ((!empty($attr['attr'])) ? $attr['attr'] : ""),
                 ((!empty($attr['class'])) ? $attr['class'] : ''),
                 $validate->errorClass($attr['name']),
-                $attr['placeholder'],
+                ((!empty($attr['placeholder'])) ? $attr['placeholder'] : ''),
                 $attr['value'],
                 $validate->isError($attr['name'])
             );
@@ -44,7 +44,7 @@ class Form {
                 $attr['rows'],
                 ((!empty($attr['class'])) ? $attr['class'] : ''),
                 $validate->errorClass($attr['name']),
-                $attr['placeholder'],
+                ((!empty($attr['placeholder'])) ? $attr['placeholder'] : ''),
                 $attr['value'],
                 $validate->isError($attr['name'])
             );
@@ -61,7 +61,7 @@ class Form {
                 ((!empty($attr['attr'])) ? $attr['attr'] : ""),
                 ((!empty($attr['class'])) ? $attr['class'] : ''),
                 $validate->errorClass($attr['name']),
-                $attr['placeholder'],
+                ((!empty($attr['placeholder'])) ? $attr['placeholder'] : ''),
                 $attr['value'],
                 $validate->isError($attr['name'])
             );
@@ -77,7 +77,7 @@ class Form {
                 ((!empty($attr['attr'])) ? $attr['attr'] : ""),
                 ((!empty($attr['class'])) ? $attr['class'] : ''),
                 $validate->errorClass($attr['name']),
-                $attr['placeholder'],
+                ((!empty($attr['placeholder'])) ? $attr['placeholder'] : ''),
                 $attr['value'],
                 $validate->isError($attr['name'])
             );
